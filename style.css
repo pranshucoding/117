@@ -1,0 +1,57 @@
+body{
+    background: content-box radial-gradient(red,yellow,green,navy,brown, skyblue);
+}
+#your_sketch{
+    font-weight: bolder;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:gold
+}
+#confidence{
+    font-weight: bolder;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:springgreen
+}
+#sketch_to_be_drawn{
+    font-weight: bolder;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:goldenrod
+}
+#timer{
+    font-weight: bolder;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:aqua;
+    float:right;
+}
+#score{
+    font-weight: bolder;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:silver
+}
+#doodly{
+    font-weight: bolder;
+    font-size:xx-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:orange;
+    text-align: center;
+}
+#show_sketch{
+    float: right;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+canvas{
+    border:5px solid white;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+   from{box-shadow: 1px 3px 38px gray;}
+   to{box-shadow: 1px 3px 38px whitesmoke;}
+}
